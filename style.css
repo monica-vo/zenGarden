@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:white;
+    font-family: 'Roboto';
+    text-shadow: 1px 5px 2px black; 
+    font-weight: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3vw;
+
+}
+
+h2 {
+    background: url(zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Satisfy', cursive;
+    background-position: 40vw;
+    color: white;
+    font-size: 2vh;;
+    margin: 0;
+}
+
+
+/* Header */
+header{
+    background-image: url(huntington.png);
+    height: 15vw;
+    background-size: cover;
+    background-position: center; 
+    padding-top: 5vh;;
+    text-align: center;
+    padding-top: 2vh;;
+
+}
+
+/* First section */
+.summary, .preamble, .explanation{
+    text-align: justify;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    margin-top: 2vh;
+
+}
+
+/* Second section */
+.participation, .benefits{
+    background: url("bamboo.png");
+    background-color: darkseagreen;
+    text-align: justify;
+}
+
+.participation p, .benefits p {
+    color: white;
+    margin: 0;
+    padding-bottom: 0;
+
+}
+
+.main-supporting{
+    margin: 0vh;
+    padding: 0;
+
+}
+
+h3{
+    margin: 0vh;
+}
+
+
+.benefits p{
+    padding-bottom: 2vh;
+}
+
+/* Anchors top  */
+a{
+    color: darkolivegreen;
+    text-decoration: none;
+    font-size: small;
+}
+
+/* padding middle sections */
+
+.summary, .preamble, .explanation, .participation, .benefits{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+
+/* padding sub-headings */
+.benefits h3, .requirements h3, .summary h3, .preamble h3, .explanation h3 {
+    padding-top: 2vh;
+}
+
+.requirements h3{
+    padding-left: 8vw;
+    font-family: 'Roboto';
+
+}
+
+.requirements p{
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.requirements p:last-child a{
+    font-family: "Satisfy";
+    font-size: xx-large;
+    color: white;
+}
+
+p[role = contentinfo] a:hover{
+    text-decoration-line: underline;
+  }
+
+
+[role="contentinfo"] {
+    color: gray;
+    background-color: darkseagreen;
+    height: 8vh;
+    padding-top: 4vh;
+    margin: 0%;
+}
+
+
+.requirements p:last-child {
+    padding-left: 12vw;
+    padding-right: 12vw;
+}
+
+
+footer{
+    background-color: #2e484c;
+    height: 15px;
+    text-align: center;
+    height: 5vh;
+    padding-top: 2vh;
+    
+  }
+
+footer a{
+    color: white;
+    padding-right: 2vw;
+    font-size: 3vh;
+    /* margin: 0%; */
+  }
+
+footer a:hover{
+      color: gray;
+  }
+
+  .sidebar h3{
+    display: none;
+  }
+
+li{
+    list-style-type: none;
+    text-align: justify;
+
+}
+
+
+
+
+.design-selection ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%; /* This delete the space between divs */
+}
+
+.design-selection li{
+    float: left;
+    width: 50%;
+    color: #c0cac3;
+    /* font-style: italic; */
+    border-bottom: solid 1px #d9e3dc;
+    height: 7vh;
+    background-color: #c0cac3;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+
+
+.zen-resources {
+background: url(bamboo.png);
+background-color: darkseagreen;
+column-count: 2;
+padding-top: 2vh;
+}
+
+.zen-resources ul{
+    padding: 0;
+   
+    justify-content: center;
+    margin: 0%; /* This delete the space between divs */
+}
+
+.zen-resources li{
+    color: #c0cac3;
+    font-family: "Robot";
+    height: 7vh;
+    text-align: center;
+    padding-top: 0vh;
+    margin-top: 0%;
+    
+}
+
+/* next designs bit */
+.design-archives ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0%;/* This delete the space between divs */
+}
+
+.design-archives li{
+    /* float: left; */
+    width: 50%;
+    font-family: "Roboto";
+    border-bottom: solid 1px #d9e3dc;
+    height: 7vh;
+    text-align: center;
+    padding-top: 4vh;
+    margin-top: 0;
+    justify-content: center;
+    background-color: #c0cac3;
+}
+
+.design-archives a{
+    color: gray;
+
+}
+
+.design-name{
+    color: black;
+    font-family: "Roboto";
+}
+
+.designer-name{
+    color: gray;
+
+}
+
+
